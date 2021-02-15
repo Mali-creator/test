@@ -1,0 +1,113 @@
+*{
+    padding:10px;
+    margin: 10px;
+}
+
+
+a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "kanit", "serif";
+} 
+p{
+    font-family: "potta", serif;
+}
+h2{
+    font-family: "kanit", serif;
+}
+header{
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    position:fixed;
+    z-index:12;
+}
+.wrapp-poster {
+    background-image:  url(bilder/MAAR6808.jpg);
+    width:100%;
+    height:628px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    display:flex;
+}
+#hjem{
+    position: relative;
+    padding-top: 100px;
+    padding-left: 600 px;
+    font-size:30px;
+}
+#installasjon img, #kontak img {
+    opacity: 0.5;
+    float: left;
+    width: 50%
+}
+#ide img, #vedlikehold img{
+    float: right;
+    width: 50%
+}
+
+#ide .tekst, #vedlikehold .tekst {
+    width: 40%;
+    float: left;
+    padding-left: 70%;
+    padding-top: 80%;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+}
+
+#ide {
+    background-color: aquamarine
+}  
+
+
+li a:hover {
+  background-color: skyblue;
+    color: aliceblue;
+}
+
+
+#kontakt p{
+    font size: 23;
+}
+
+.all {
+    padding-left: 10%
+}
+button{
+    background-color: lightpink;
+    font-size: 32px´8u;
+    padding: 5px
+    
+}
+
+#kontakt img:hover {
+    opacity: 0.5;
+}
+#vedlikehold {
+    background: rgba (76, 175, 80, 0.8);
+}
+input text{
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.active{
+    color: red
+}
+    
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
